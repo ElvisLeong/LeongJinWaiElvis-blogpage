@@ -22,8 +22,39 @@
 
 
         <div class="week1">
-          <h1> What I've learnt </h1>
-
+          <h1> The Code</h1>
+          <p class="ramblings">
+            After designing the box last week, I decided to work on the software this week. I first wrote down what I wanted to accomplish in the code, before searching up how to create them
+            <br>
+            <br>
+            <table>
+              <tr>
+                <td>On Boot Up</td>
+                <td>Introductory text displays</td>
+              </tr>
+              <tr>
+                <td>On button press</td>
+                <td>Life count increases or decreases.</td>
+              </tr>
+              <tr>
+                <td>When life his a certain count.</td>
+                <td>Neopixel will change color.</td>
+              </tr>
+            </table>
+            <br>
+            With these objectives set in mind, I proceded to code using the Arduino IDE, while using youtube videos and online resources are reference.
+          </p>
+          <p class=" ramblings">
+            <br>
+            The first hurdle I had to climb was finding out how to get the Uno Board to remember the Life count every loop without changing. After some research,
+            I came across <a href="https://www.arduino.cc/en/Tutorial/StateChangeDetection">StateChangeDecection</a>, and though I didn't completely understand,
+             solved the issue of the life count reseting to the one set in the code after every loop.
+            <br>
+            <br>
+            The next hurdle I had was figuring out how to get the display and ligths to change according to the Life count. I did some light research and
+            realised I could just use IfElse statement to accomplish this, and that's what I did, till I came across a new issue when the text would eat and overlap
+            into each other. Using IfElse Statements again, I cleared the screen at every threshold (the Life count where the text and Neopixel color changes) so the text no longer overlaps.
+          </p>
         </div> <!-- end of week1 div-->
 
 
