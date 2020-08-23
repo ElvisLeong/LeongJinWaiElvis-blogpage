@@ -44,6 +44,15 @@ table td:nth-of-type(2){
   font-size: 1.5em;
 }
 
+#pictures{
+  transform: scale(0.8);
+  align-self: center;
+}
+
+#Bigtext{
+  font-size: 4vh;
+
+}
 
 .box {
   border: 1px solid black;
